@@ -1,7 +1,21 @@
-[TRACE] 2022-08-13 14:53:34.447 Main:10 - This is a trace message 
-[DEBUG] 2022-08-13 14:53:34.528 Main:11 - This is a debug message 
-[INFO] 2022-08-13 14:53:34.528 Main:12 - This is an info message 
-[WARN] 2022-08-13 14:53:34.528 Main:13 - This is a warn message 
-[ERROR] 2022-08-13 14:53:34.528 Main:14 - This is an error message 
-[FATAL] 2022-08-13 14:53:34.528 Main:15 - This is a fatal message 
-[INFO] 2022-08-13 14:53:34.528 Main:16 - _________________dividing line________________________ 
+[TRACE] 2022-08-13 14:55:01.607 Main:10 - This is a trace message 
+[DEBUG] 2022-08-13 14:55:01.617 Main:11 - This is a debug message 
+[INFO] 2022-08-13 14:55:01.617 Main:12 - This is an info message 
+[WARN] 2022-08-13 14:55:01.617 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 14:55:01.617 Main:14 - This is an error message 
+[FATAL] 2022-08-13 14:55:01.617 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 14:55:01.617 Main:16 - _________________dividing line________________________ 
+[TRACE] 2022-08-13 14:55:25.893 Main:10 - This is a trace message 
+[DEBUG] 2022-08-13 14:55:25.893 Main:11 - This is a debug message 
+[INFO] 2022-08-13 14:55:25.893 Main:12 - This is an info message 
+[WARN] 2022-08-13 14:55:25.893 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 14:55:25.908 Main:14 - This is an error message 
+[FATAL] 2022-08-13 14:55:25.908 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 14:55:25.908 Main:16 - _________________dividing line________________________ 
+[TRACE] 2022-08-13 14:55:32.470 Main:10 - This is a trace message 
+[DEBUG] 2022-08-13 14:55:32.476 Main:11 - This is a debug message 
+[INFO] 2022-08-13 14:55:32.476 Main:12 - This is an info message 
+[WARN] 2022-08-13 14:55:32.476 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 14:55:32.476 Main:14 - This is an error message 
+[FATAL] 2022-08-13 14:55:32.476 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 14:55:32.476 Main:16 - _________________dividing line________________________ 
