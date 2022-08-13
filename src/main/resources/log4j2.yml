@@ -67,6 +67,22 @@ configuration:
             modulate: true
 
 
+    #will be sent on e-mail
+
+    SMTP:
+      name: MailAppender
+      subject: "Error Log"
+      to: "okuchmuk@gmail.com"
+      from: "okuchmuk@gmail.com"
+      smtpHost: "smtp.gmail.com"
+      smtpPort: 465
+      smtpProtocol: smtps
+      smtpUsername: "okuchmuk@gmail.com"
+      smtpPassword: "xxxxxxxxxx"
+      bufferSize: 512
+      HTMLLayout:
+        charset: "UTF-8"
+        title: "Logs from Kuchmuk HW 'Log4j'"
 
 
 
@@ -81,8 +97,10 @@ configuration:
         - ref: rolFileBySize
           level: all
         - ref: rolFileDailyNew
-          level: all
+          level: error
         - ref: rolFileByTime
+          level: debug
+        - ref: MailAppender
           level: all
 
 
