@@ -1,0 +1,94 @@
+configuration:
+  Properties:
+    Property:
+      name: logger
+      value: logs_folder
+
+  Appenders:
+    Console:
+      - name: myConsole
+        PatternLayout:
+          disableAnsi: false
+          Pattern:  "%highlight{%-5level}{FATAL=bg_red}	%style{%date{yyyy-MM-dd  HH:mm:ss.SSS}}{blue} %class{1}:%L - %highlight{%msg} %xEx{short}%n"
+        Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: DENY
+            onMismatch: NEUTRAL
+
+
+    File:
+      - name: myFile
+        fileName: ${logger}/log_file.log
+        PatternLayout:
+          Pattern: "[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+
+        Filters:
+          ThresholdFilter:
+            level: warn
+            onMatch: DENY
+            onMismatch: NEUTRAL
+
+    RollingFile:
+
+    # file will be overwritten after reaching the size of 100B
+      - name: rolFileBySize
+        fileName: ${logger}/rolFileBySize.log
+        filePattern: ${logger}/archive/rolFileBySize.log.%d{yyyy-MM-dd-hh-mm}.gz
+        PatternLayout:
+          Pattern: "[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+        Policies:
+          sizeBasedTriggeringPolicy:
+            size: 1000B
+
+
+    # every day log will be written to a new file every day 15:43
+      - name: rolFileDailyNew
+        fileName: ${logger}/rolFileDailyNew.log
+        filePattern: ${logger}/archive/rolFileDailyNew-%d{yy-MM-dd}.log
+        PatternLayout:
+          Pattern: "[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+        CronTriggeringPolicy:
+          schedule: "0 43 15 ? * *"
+          evaluateOnStartup: true
+        DefaultRolloverStrategy:
+          max: 1
+
+
+    # file will be overwritten every day
+      - name: rolFileByTime
+        fileName: ${logger}/rolFileByTime.log
+        filePattern: ${logger}/archive/rolFileByTime_old.log.%d{yyyy-MM-dd-hh-mm}.gz
+        PatternLayout:
+          Pattern: "[%level] %d{yyyy-MM-dd HH:mm:ss.SSS} %class{1}:%L - %msg %xEx{short}%n"
+        Policies:
+          TimeBasedTriggeringPolicy:
+            interval: 1
+            modulate: true
+
+
+
+
+
+  Loggers:
+    Root:
+      level: all
+      AppenderRef:
+        - ref: myFile
+          level: info
+        - ref: myConsole
+          level: warn
+        - ref: rolFileBySize
+          level: all
+        - ref: rolFileDailyNew
+          level: all
+        - ref: rolFileByTime
+          level: all
+
+
+    Logger:
+      - name: com.epam.Main
+        level: all
+        AppenderRef:
+         - ref: myConsole
+           level: trace

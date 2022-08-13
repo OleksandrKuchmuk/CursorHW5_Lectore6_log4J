@@ -1,0 +1,156 @@
+Message debug
+Message info
+Message warning
+Message error
+Message FATAL
+DEBUG 2022-08--12 16-14 Main:11 - Message debug
+ INFO 2022-08--12 16-14 Main:12 - Message info
+ WARN 2022-08--12 16-14 Main:13 - Message warning
+ ERROR 2022-08--12 16-14 Main:14 - Message error
+ FATAL 2022-08--12 16-14 Main:15 - Message FATAL
+ DEBUG 2022-08--12 16-21 Main:11 - Message debug
+INFO 2022-08--12 16-21 Main:12 - Message info
+WARN 2022-08--12 16-21 Main:13 - Message warning
+ERROR 2022-08--12 16-21 Main:14 - Message error
+FATAL 2022-08--12 16-21 Main:15 - Message FATAL
+DEBUG 2022-08--12 16-22 Main:11 - Message debug
+INFO 2022-08--12 16-22 Main:12 - Message info
+WARN 2022-08--12 16-22 Main:13 - Message warning
+ERROR 2022-08--12 16-22 Main:14 - Message error
+FATAL 2022-08--12 16-22 Main:15 - Message FATAL
+DEBUG 2022-08--12 16-23 Main:11 - Message debug
+INFO 2022-08--12 16-23 Main:12 - Message info
+WARN 2022-08--12 16-23 Main:13 - Message warning
+ERROR 2022-08--12 16-23 Main:14 - Message error
+FATAL 2022-08--12 16-23 Main:15 - Message FATAL
+DEBUG 2022-08--12 16-23 Main:11 - Message debug
+INFO 2022-08--12 16-23 Main:12 - Message info
+WARN 2022-08--12 16-23 Main:13 - Message warning
+ERROR 2022-08--12 16-23 Main:14 - Message error
+FATAL 2022-08--12 16-23 Main:15 - Message FATAL
+DEBUG 2022-08--12 16-23 Main:11 - Message debug
+INFO 2022-08--12 16-23 Main:12 - Message info
+WARN 2022-08--12 16-23 Main:13 - Message warning
+ERROR 2022-08--12 16-23 Main:14 - Message error
+FATAL 2022-08--12 16-23 Main:15 - Message FATAL
+ERROR 2022-08--12 16-35 Main:14 - Message error
+FATAL 2022-08--12 16-35 Main:15 - Message fatal
+ERROR 2022-08--12 16-36 Main:14 - Message error
+FATAL 2022-08--12 16-36 Main:15 - Message fatal
+INFO 2022-08--12 16-39 Main:12 - Message info
+WARN 2022-08--12 16-39 Main:13 - Message warning
+ERROR 2022-08--12 16-39 Main:14 - Message error
+FATAL 2022-08--12 16-39 Main:15 - Message fatal
+INFO 2022-08--12 16-44 Main:12 - Message info
+WARN 2022-08--12 16-44 Main:13 - Message warning
+ERROR 2022-08--12 16-44 Main:14 - Message error
+FATAL 2022-08--12 16-44 Main:15 - Message fatal
+INFO 2022-08--12 16-47 Main:12 - Message info
+INFO 2022-08--12 16-47 Main:12 - Message info
+INFO 2022-08--12 17-52 Main:12 - Message info
+INFO 2022-08--13 11-57 Main:12 - Message info
+INFO 	2022-08-13  11:57:34.858 Main:12 - Message info 
+INFO 	2022-08-13  11:58:54.532 Main:12 - Message info 
+INFO 	2022-08-13  11:59:30.923 Main:12 - Message info 
+WARN 	2022-08-13  11:59:30.923 Main:13 - Message warning 
+ERROR	2022-08-13  11:59:30.923 Main:14 - Message error 
+FATAL	2022-08-13  11:59:30.923 Main:15 - Message fatal 
+INFO 	2022-08-13  12:13:08.770 Main:12 - This is an info message 
+WARN 	2022-08-13  12:13:08.770 Main:13 - This is a warn message 
+ERROR	2022-08-13  12:13:08.785 Main:14 - This is an error message 
+FATAL	2022-08-13  12:13:08.785 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:17:22.720 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:17:22.720 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:17:22.720 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:17:22.720 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:18:24.642 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:18:24.642 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:18:24.642 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:18:24.642 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:19:03.952 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:19:03.952 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:19:03.952 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:19:03.952 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:20:40.556 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:20:40.556 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:20:40.556 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:20:40.556 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:21:59.177 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:21:59.177 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:21:59.192 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:21:59.192 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:27:47.258 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:27:47.258 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:27:47.258 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:27:47.258 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:33:12.549 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:33:12.549 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:33:12.549 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:33:12.549 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:47:47.919 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:47:47.927 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:47:47.927 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:47:47.929 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:50:02.319 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:50:02.319 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:50:02.319 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:50:02.319 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:51:31.332 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:51:31.332 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:51:31.332 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:51:31.332 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:51:55.402 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:51:55.402 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:51:55.402 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:51:55.402 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:52:31.465 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:52:31.465 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:52:31.465 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:52:31.465 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 12:58:25.662 Main:12 - This is an info message 
+[WARN] 2022-08-13 12:58:25.663 Main:13 - This is a warn message 
+[ERROR] 2022-08-13 12:58:25.664 Main:14 - This is an error message 
+[FATAL] 2022-08-13 12:58:25.664 Main:15 - This is a fatal message 
+[INFO] 2022-08-13 13:50:09.235 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:50:39.975 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:50:55.786 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:51:08.790 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:52:22.298 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:53:37.056 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:54:08.579 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:54:31.506 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:54:43.023 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:55:36.790 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:57:29.422 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:58:40.233 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:59:09.539 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:59:36.740 Main:12 - This is an info message 
+[INFO] 2022-08-13 13:59:46.771 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:07:21.895 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:08:04.361 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:09:30.383 Main:12 - This is an info message 
+[32mINFO [m	[34m2022-08-13  14:13:37.643[m Main:12 - [32mThis is an info message[m 
+INFO 	2022-08-13  14:14:31.399 Main:12 - This is an info message 
+[32mINFO [m	[34m2022-08-13  14:15:00.387[m Main:12 - [32mThis is an info message[m 
+[INFO] 2022-08-13 14:23:04.221 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:42:06.181 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:43:55.992 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:43:56.024 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:44:37.290 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:44:37.306 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:45:32.051 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:45:32.067 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:45:54.989 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:45:54.997 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:46:01.405 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:46:01.405 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:46:09.342 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:46:09.349 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:46:29.353 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:46:29.369 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:47:32.056 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:47:32.072 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:48:18.811 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:48:18.811 Main:16 - _________________dividing line________________________ 
+[INFO] 2022-08-13 14:53:34.528 Main:12 - This is an info message 
+[INFO] 2022-08-13 14:53:34.528 Main:16 - _________________dividing line________________________ 
